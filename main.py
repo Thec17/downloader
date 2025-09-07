@@ -63,4 +63,4 @@ def main(page: ft.Page):
     
     page.add(ft.SafeArea(content))
     
-ft.app(main)
+ft.app(target=main, view=ft.WEB_BROWSER, port=8080)
