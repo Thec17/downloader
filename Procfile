@@ -1,1 +1,1 @@
-web: flet run --web descargarVideos.py
+web: python descargarVideos.py
